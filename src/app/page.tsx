@@ -123,7 +123,10 @@ const Home = () => {
             <div className='space-y-4'>
               {numAssignments > 0 ? (
                 assignments.map((assignment, index) => (
-                  <div key={index} className='space-y-2'>
+                  <div
+                    key={index}
+                    className='space-y-2 border-2 border-blue-500 p-4'
+                  >
                     <p className='text-white'>Assignment {index + 1}</p>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                       <div>
