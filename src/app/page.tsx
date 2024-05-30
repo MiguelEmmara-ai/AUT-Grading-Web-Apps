@@ -70,7 +70,7 @@ const Home = () => {
       <Header />
 
       <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 p-4'>
-        <div className='max-w-md w-full space-y-8 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg'>
+        <div className='max-w-lg w-full space-y-8 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg'>
           <div className='text-center'>
             <h1 className='text-3xl font-bold text-gray-900 dark:text-gray-100'>
               AUT Grade Calculator
@@ -125,7 +125,7 @@ const Home = () => {
                 assignments.map((assignment, index) => (
                   <div key={index} className='space-y-2'>
                     <p className='text-white'>Assignment {index + 1}</p>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                       <div>
                         <label
                           className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-white'
